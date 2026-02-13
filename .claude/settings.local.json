@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php artisan make:migration:*)",
+      "Bash(php artisan make:model:*)",
+      "Bash(php artisan make:filament-resource:*)",
+      "Bash(php artisan make:filament-page:*)",
+      "Bash(php artisan migrate:*)",
+      "Bash(php artisan make:controller:*)",
+      "Bash(php artisan make:seeder:*)",
+      "Bash(php artisan db:seed:*)",
+      "Bash(php artisan migrate:rollback:*)",
+      "Bash(cat:*)",
+      "Bash(cp:*)",
+      "Bash(php artisan:*)",
+      "Bash(composer show:*)",
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git show-ref:*)",
+      "Bash(git remote remove:*)",
+      "Bash(git fetch:*)",
+      "Bash(git ls-tree:*)",
+      "Bash(git remote get-url:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
